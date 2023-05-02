@@ -26,3 +26,60 @@ list-style: none;
 display: flex;
 gap: 10px;
 }
+
+main {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    width: 100%;
+}
+
+/* section */
+ #hero {
+    margin-top: 65%;
+    padding: 70%;
+    max-width: 1200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.hero-info h1 {
+    font-size: 48%;
+    width: 80%;
+    min-width: 500%;
+    font-weight: 800;
+    color: var(--text-gray)
+}
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+    color: var(--text-gray)
+}
+.hero-info a {
+    color: black;
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.hero-card {
+    width: 300px;
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 20px;
+
+}
