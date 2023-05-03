@@ -31,7 +31,11 @@ header{
     width: 40px;
     height: 40px;
 }
-
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 60px 0 30px; 
+}
 .navbar,
 .navbar-list {
     display: flex;
@@ -57,16 +61,18 @@ main {
     justify-content: center;
     color: var(--primary);
     width: 100%;
+    margin: 10%;
 }
 
 /* section */
  #info {
-    margin-top: 65%;
+    margin-top: 60%;
     padding: 70%;
     max-width: 1200%;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 11%;
 }
 .info-info {
     display: flex;
@@ -75,16 +81,16 @@ main {
     width: 50%;
 }
 .info-info h1 {
-    font-size: 48%;
+    font-size: 50%;
     width: 80%;
     min-width: 500%;
     font-weight: 800;
-    color: var(--text-gray)
+    color: var(--secondary)
 }
 .info-info p {
     font-size: 14px;
     width: 70%;
-    color: var(--text-gray)
+    color: var(--secondary)
 }
 .info-info a {
     color: black;
