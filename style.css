@@ -58,12 +58,12 @@ main {
     justify-content: center;
     color: var(--primary);
     width: 100%;
-    margin: 10;
+    margin: 10%;
 }
 
 /* section */
  #info {
-    margin-top: 65%;
+    margin-top: 65px;
     padding: 70%;
     max-width: 1200%;
     display: flex;
