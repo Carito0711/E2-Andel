@@ -1,9 +1,9 @@
 :root{
-    --background:var(#02050e);
-    --primary: #1e50ff;
-    --secondary: #272d37;
-    --white: #fff;
-    --otrocolor: #03a4c056;
+    --negro:#02050e;
+    --azul: #1e50ff;
+    --azulmasoscuro: #272d37;
+    --blanco: #fff;
+    --cesltecito: #035bc0;
     --rojito: #d30729d2; 
 }
 
@@ -39,7 +39,8 @@ header{
     padding: 10px 60px 0 30px; 
 }
 .navbar,
-.navbar-list {
+.navbar-list {   
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
