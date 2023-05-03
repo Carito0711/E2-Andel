@@ -50,12 +50,6 @@ header{
     color: var(--primary);
     font-weight: 400;
 }
-
-.navbar-list li:first-child>a {
-    color: var(--secondary);
-    font-size: 14px;
-}
-
 main {
     background: var(--white);
     display: flex;
@@ -64,7 +58,7 @@ main {
     justify-content: center;
     color: var(--primary);
     width: 100%;
-    margin: 10%;
+    margin: 10;
 }
 
 /* section */
@@ -75,7 +69,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 11%;
+    z-index: 10%;
 }
 .info-info {
     display: flex;
