@@ -22,42 +22,45 @@ header{
     align-items: center;
     height: 65px;
     padding: 0 30px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
 }
 .instagram{
     width: 40px;
     height: 40px;
 }
-nav {
+
+.navbar,
+.navbar-list {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-
+    justify-content: center;
+    gap: 20px;
+}
+.navbar-list a{
+    color: var(--primary);
+    font-weight: 400;
 }
 
-ul a {
-    color: brown;
-    text-decoration: none;
-    padding: 1rem;
-}
-
-ul{
-list-style: none;
-display: flex;
-gap: 10px;
+.navbar-list li:first-child>a {
+    color: var(--secondary);
+    font-size: 14px;
 }
 
 main {
-    background: var(--background);
+    background: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: blue;
+    color: var(--primary);
     width: 100%;
 }
 
 /* section */
- #hero {
+ #info {
     margin-top: 65%;
     padding: 70%;
     max-width: 1200%;
@@ -65,25 +68,25 @@ main {
     justify-content: center;
     align-items: center;
 }
-.hero-info {
+.info-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
 }
-.hero-info h1 {
+.info-info h1 {
     font-size: 48%;
     width: 80%;
     min-width: 500%;
     font-weight: 800;
     color: var(--text-gray)
 }
-.hero-info p {
+.info-info p {
     font-size: 14px;
     width: 70%;
     color: var(--text-gray)
 }
-.hero-info a {
+.info-info a {
     color: black;
     width: 120px;
     padding: 8px 0;
@@ -91,7 +94,7 @@ main {
     font-size: 14px;
     text-align: center;
 }
-.hero-card {
+.info-img {
     width: 300px;
     background: black;
     padding: 20px;
