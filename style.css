@@ -58,18 +58,19 @@ main {
     align-items: center;
     justify-content: center;
     color: var(--primary);
-    width: 100%;
-    margin: 10%;
+    width: 750px;
+    margin: 150px;
 }
 
 /* section */
  #info {
     margin-top: 65px;
-    padding: 70% 0;
-    max-width: 1200%;
+    padding: 70px 0;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 .info-info {
@@ -80,10 +81,11 @@ main {
 }
  
 .info-info h1 {
-    width: 80%;
-    min-width: 500%;
+    width: 80px;
+    min-width: 500px;
     font-weight: 800;
-    color: var(--rojito)
+    color: var(--rojito);
+    z-index: 5px;
 }
 .info-info p {
     font-size: 15px;
