@@ -1,4 +1,4 @@
-:root{
+:root {
     --negro:#02050e;
     --azul: #1e50ff;
     --azulmasoscuro: #272d37;
@@ -7,7 +7,7 @@
     --rojito: #d30729d2; 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
     list-style-type: none;
 }
 
-header{
+header {
     background: var(--white);
     width: 100%;
     display: flex;
@@ -29,7 +29,7 @@ header{
     z-index: 2;
 
 }
-.instagram{
+.instagram {
     width: 40px;
     height: 40px;
 }
@@ -47,7 +47,7 @@ header{
     gap: 20px;
 
 }
-.navbar-list a{
+.navbar-list a {
     color: var(--primary);
     font-weight: 400;
 }
@@ -58,7 +58,8 @@ main {
     align-items: center;
     justify-content: center;
     color: var(--primary);
-    margin: 150px;
+    width: 200px;
+    margin: 350px;
 }
 
 /* section */
@@ -69,6 +70,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 
 
 }
@@ -78,6 +80,7 @@ main {
     justify-content: left;
     flex-wrap: wrap;
     width: 750px;
+    margin: 15px;
 }
  
 .info-info h1 {
@@ -86,6 +89,7 @@ main {
     font-weight: 800;
     color: var(--rojito);
     z-index: 5px;
+    margin: 10px;
 }
 .info-info p {
     font-size: 15px;
@@ -95,10 +99,10 @@ main {
 }
 .info-info a {
     width: 110px;
-    padding: 8px 0;
+    padding: 15px 0;
     border-radius: 20px;
-    background-color: var(--azulmasoscuro);
-    color: var(--rojito);
+    background-color: var(--cesltecito);
+    color: var(--negro);
     font-size: 15px;
     text-align: center;
     text-decoration: none;   
@@ -118,7 +122,7 @@ main {
     height: 300px;
 }
 
-#presentación{
+#presentación {
     display: flex;
     justify-content: center;
     text-align: center;
