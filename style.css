@@ -117,7 +117,18 @@ main {
  
 .hero-img {
 
-    width: 20%;
+    color: var(--white);
+    background-color: var(--azulmasoscuro);
+    justify-content: right;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+
 }
 
 /*ABOUT*/
