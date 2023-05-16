@@ -115,8 +115,9 @@ main {
     color: var(--blanco);
 }
  
-hero-img {
-    width: 475px;
+.hero-img {
+
+    width: 20%;
 }
 
 /*ABOUT*/
