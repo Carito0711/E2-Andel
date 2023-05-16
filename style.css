@@ -27,6 +27,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
+    position: fixed;
 
 }
 .instagram {
@@ -52,6 +53,17 @@ header {
     font-weight: 400;
 }
 
+.navbar {
+    display: flex;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+
+}
+
+
 /*MAIN*/
 
 main {
@@ -64,6 +76,7 @@ main {
 /*HERO*/
 
 #hero {
+    margin-top: 80px;
     display: flex;
     width: 98%;    
     padding: 70px 0px;
@@ -140,5 +153,61 @@ main {
     justify-content: center;
     width: 80%;
     max-width: 850px;
-
+    padding: 30px 0;
+    font-weight: 300;
+    text-align: center;
 }
+
+@media (max-width: 992px) {
+    .hero-presentation {
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+    .hero-presentation h1{
+        display: block;
+        width: 100%;
+    }
+    .hero-presentation p {
+        max-width: 80%;
+        font-size: 16px;
+    }
+    .button-container {
+        justify-content: center;
+    }
+    .hero-img {
+        display: none;
+    }
+    #about {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar ul {
+        background-color: var(--blanco);
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+
+    }
+    .navbar i {
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list {
+        transform: translateX(0%);
+        
+    }
+}
+
+
+
+
+
