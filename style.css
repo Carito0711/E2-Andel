@@ -199,7 +199,9 @@ main {
 
     #toggle-menu:checked ~ .navbar-list {
         transform: translateX(0%);
-
+    }
+    .hero-presentation {
+        max-width: 100%;
     }
 }
 
