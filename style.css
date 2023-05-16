@@ -135,8 +135,10 @@ main {
 
 #about {
     display: flex;
+    color: #035bc0;
     align-items: center;
     justify-content: center;
     width: 80%;
     max-width: 850px;
+
 }
