@@ -228,8 +228,77 @@ main {
     flex-direction: column;
     width: 50%;
     padding: 30px;
-    
 }
+.beneficios-cards h2 {
+    color: var(--azul)
+}
+
+.beneficios-cards p {
+    font-weight: 500px;
+    font-size: 20px;
+    color: var(--cesltecito);
+}
+#contacto {
+    color: black;
+    margin-top: 65px;
+    padding: 70px 0;
+    /* max-width: 1200px; */
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 90%;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.ubicaciones {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-start
+}
+
+.direcciones {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Lanus,
+.Palermo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.mapa img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+}
+
+.linea {
+
+    border-top: 2px solid var(--text-principal);
+    height: 2px;
+}
+
 
 
 
