@@ -270,7 +270,7 @@ main {
 
 .direcciones {
     display: flex;
-    flex-direction: row;
+    flex-direction: left;
     gap: 20px;
 }
 
@@ -280,8 +280,7 @@ main {
     gap: 20px;
 }
 
-.Lanus,
-.Palermo {
+.Lanus {
     display: flex;
     flex-direction: column;
     gap: 20px;
