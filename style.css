@@ -206,14 +206,16 @@ main {
 }
 
 #cards {
-    text-align: center;
-    margin-top: 65px;
-    padding: 70px;
-    max-width: 1200px;
+    display: flex;
+    justify-content:space-evenly;
     flex-direction: row;
+    gap: 40px;
+    max-width: 800px;
+    flex: wrap;
 }
 .beneficios {
     color: var(--rojito);
+    font-weight: 600;
     font-size: 32px;
     padding: 25px;
 }
@@ -221,6 +223,10 @@ main {
     color: var(--rojito);
     font-weight: 800;
     font-size: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+
 }
 
 .beneficios-card {
@@ -229,6 +235,7 @@ main {
     flex-direction: column;
     width: 50%;
     padding: 30px;
+    
 }
 .beneficios-cards h2 {
     color: var(--azul)
@@ -246,7 +253,7 @@ main {
     /* max-width: 1200px; */
     display: flex;
     gap: 30px;
-    flex-direction: column;
+    flex-direction:row ;
     width: 90%;
 }
 
@@ -270,7 +277,7 @@ main {
 
 .direcciones {
     display: flex;
-    flex-direction: left;
+    flex-direction: row;
     gap: 20px;
 }
 
@@ -298,8 +305,18 @@ main {
     border-top: 2px solid var(--text-principal);
     height: 2px;
 }
+  #footer {
 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
 
+  }
 
+  .cart-icon {
+      height: 100px;
+      width: 100px;
 
-
+}
